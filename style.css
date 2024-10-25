@@ -1,0 +1,1138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #cacfd2;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 0px;
+}
+
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #171717;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #2e86c1;
+}
+
+
+.title{
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #171717;
+}
+
+
+.slider-box{
+    height: 110vh;
+    padding: 0;
+    margin: 0;
+    background: url(img/imagen10.jpg)no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+
+.Inicio{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 20px;
+    color: #ffffff;
+}
+
+.Inicio h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.slider-box img{
+    width: 100%;
+}
+
+.logoSF{
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 1100px;
+}
+
+.slider-box::before{
+content: "";
+width: 100%;
+min-height: 103vh;
+position: absolute;
+margin-top: 60px;
+top: 0;
+left: 0;
+
+background-color: #171717;
+opacity: 0.7;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
+}
+
+.btn{
+    display: flex;
+    width: 500px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 2px solid #2e86c1;
+    color: #ffffff;
+    text-decoration: none;
+    background: #2e86c1;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Etico{
+    height: 180vh;
+    padding: 0;
+    margin: 0;
+    background: url(img/fondo_chido.jpeg)no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+.titulo{
+    height: 400px;
+    width: 900px;
+    border-radius: 10px;
+    margin-left: 100px;
+    background: #ffffff;
+}
+
+.Etico h6{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+color: #003082;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 0 0 #171717;
+}
+
+.Etico::before{
+    content: "";
+    width: 100%;
+    min-height: 181vh;
+    position: absolute;
+    margin-top: 790px;
+    top: 0;
+    left: 0;
+    
+    background-color: #171717;
+    opacity: 0.6;
+    }
+
+.Etico h6::after,h6::before{
+content: '';
+position: absolute;
+width: 120px;
+height: 3px;
+background-color: #171717;
+top: 0.6em;
+}
+.Etico h6::before{
+    left: -140px;
+}
+
+.Etico h6::after{
+    right: -140px;
+}
+
+.Etico p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: #171717;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.box-container{
+    height: 300px;
+    width: 680px;
+    border-radius: 10px;
+    margin-left: -700px;
+    margin-top: 50px;
+    background: #ffffff;
+}
+
+
+.box-container p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: #171717;
+    text-shadow: #171717;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-container h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 1140px;
+    font-size: 40px;
+    color: #003082;
+    text-shadow:4px 0 0 #d0d3d4;
+}
+
+.box-container img{
+    margin-right: 50px;
+    margin-top: -40px;
+}
+
+.box-container11{
+    height: 230px;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 800px;
+    background: #ffffff;
+}
+
+.box-container11 h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 140px;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 5px;
+    color: #003082;
+    text-shadow:4px 0 0 #d0d3d4;
+
+}
+
+
+.box-container11 p{
+        margin-top: 20px;
+        text-align: justify;
+        font-size: 20px;
+        color: #171717;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.box-container11 img{
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+.box-container22 h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 900px;
+    margin-right: 1140px;
+    font-size: 40px;
+    color: #003082;
+    text-shadow:4px 0 0 #d0d3d4;
+
+}
+
+.box-container22{
+    height: 350px;
+    width: 680px;
+    border-radius: 10px;
+    margin-left: -700px;
+    background-color: #ffffff;
+}
+
+.box-container22 p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: #171717;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-container22 img{
+    margin-right: 50px;
+    margin-top: -50px;
+}
+
+
+
+
+.Servicio{
+    background: #d0d3d4;
+    height: 150vh;
+    margin-top: -5%;
+}    
+
+.TituloServ h2{
+    color: #003082;
+    margin-left: 10px;
+    font-size: 40px;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.TituloServ h2::after, h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #003082;
+    top: 0.6em;
+    }
+
+    .TituloServ h2::before{
+        left: 540px;
+        background-color: #003082;
+    }
+    
+    .TituloServ h2::after{
+        right: 540px;
+    }
+
+.TituloServ p{
+    color: #171717;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.slider-boxS{
+    width: 150vh;
+    height: 200vh;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-top: -20%;
+    background: #d0d3d4;
+}
+
+.slider-boxS ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-boxS li{
+    width: 100%;
+    position: relative;
+}
+
+.Slider-text {
+    position: absolute;
+    text-align: justify;
+    padding: 0 250px;
+    margin-top: 2050px;
+    margin-left: -250px;
+    top: 250px;
+    font-size: 28px;
+    color: #171717;
+}
+
+.Slider-text a{
+    color: #171717;
+}
+
+.Slider-text1 p{
+    position: absolute;
+    text-align: end;
+    padding: 0 250px;
+    margin-top: -250px;
+    margin-left: 1000px;
+    top: 250px;
+    color: #171717;
+}
+
+.slider-boxS{
+    width: 100%;
+}
+
+.about{
+    height: 110vh;
+    background: #ffffff;
+    margin-top: 15%;
+}
+
+
+
+
+
+
+
+.box-container1{
+    text-align: left;
+    font-size: 20px;
+    margin-right: 900px;
+    margin-left: 100px;
+    margin-top: -50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.slider-box1{
+    width: 100%;
+    height: 50%;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+
+.slider-box1 ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box1 li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+
+.price{
+    height: 180vh;
+    background: url(img/fondo_2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    block-size: cover;
+    text-align: center;
+    margin-top: -29%;
+}
+
+
+
+.price h2{
+    margin-top: 30%;
+    position: relative;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.price h2::after, h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #003082;
+    top: 0.6em;
+    }
+
+    .price h2::before{
+        left: -140px;
+        background-color: #003082;
+    }
+    
+    .price h2::after{
+        right: -140px;
+    }
+
+.form-content .btn{
+    color: #fff;
+}
+
+.form-content label{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-content input{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact{
+    height: 120vh;
+    padding-top: 20px;
+    background: #fff;
+    padding-bottom: 0;
+    background: #d0d3d4;
+}
+
+.contact p{
+    font-size: 20px;
+    margin-top: -120px;
+    color: #171717;
+}    
+
+.logoContac{
+    margin-top: -80px;
+}
+
+.facebook{
+margin-top: 1px;
+margin-right: 250px;
+}
+
+.instagram{
+    margin-top: -95px;
+    margin-left: 20px;
+}
+
+
+.container-boton{
+    border-bottom: -20px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 30px;
+    padding: 10px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+
+.whats{
+    width: 80px;
+    transition: ease 1s;
+}
+
+@keyframes efecto {
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25 rgba(0, 0, 0, 0);
+    }
+}
+
+
+.form-content{
+    font-family: Arial, Helvetica, sans-serif;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        width: 800px;
+        border-radius: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+label{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+input , textarea{
+    padding: 17px 14px;
+    border: 0;
+    font-size: 15px;
+    color: #171717;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.form-content .btn{
+    height: 3rem;
+    width: 10rem;
+    align-self: center;
+    cursor: pointer;
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: 250px;
+grid-gap: 20px;
+padding: 100px 0;
+}
+
+.Galeria{
+background: #2e86c1;
+}
+
+
+
+
+.boton{
+    display: block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: #003082;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 150px 130px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1300px;
+    margin-top: 40px;
+}
+
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid #003082;
+    color: #003082;
+}
+
+
+
+
+.Estructura{
+    height: 110vh;
+        background: url(img/Silo_/Bascula1.jpeg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        block-size: cover;
+        text-align: center;
+    }
+
+.Estructura h2{
+    color: #171717;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 0 0 #d0d3d4;
+}
+
+.Estructura h2::after,h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #171717;
+    top: 0.6em;
+    }
+
+    .Estructura h2::before{
+        left: -140px;
+    }
+    
+    .Estructura h2::after{
+        right: -140px;
+    }
+
+
+.EstructuraDis{
+        height: 140vh;
+            background: url(img/Estructura_1.jpeg) no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            block-size: cover;
+            text-align: center;
+}
+
+.EstructuraDis h2{
+    color: #171717;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 0 0 #d0d3d4;
+}
+
+.EstructuraDis h2::after,h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #171717;
+    top: 0.6em;
+    }
+
+    .EstructuraDis h2::before{
+        left: -140px;
+    }
+    
+    .EstructuraDis h2::after{
+        right: -140px;
+    }
+
+.E_Cuerpo{
+    height: 220px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-color: #ffffff;
+}
+
+
+.E_Cuerpo p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: #171717;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img_1{
+    height: 480px;
+    width: 500px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin-left: 900px;
+    margin-top: -180px;
+}
+
+.img_2{
+    height: 480px;
+    width: 750px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: -270px;
+}
+
+
+
+
+
+.EstructuraEntr{
+    height: 150vh;
+        background: url(img/Entrepisos_Cubiertas/Cubierta1.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        block-size: cover;
+        text-align: center;
+}
+
+.EstructuraEntr h2{
+    color: #171717;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 0 0 #d0d3d4;
+}
+
+.EstructuraEntr h2::after,h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #171717;
+    top: 0.6em;
+    }
+
+    .EstructuraEntr h2::before{
+        left: -140px;
+    }
+    
+    .EstructuraEntr h2::after{
+        right: -140px;
+    }
+
+.C_Cuerpo{
+    height: 200px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 800px;
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+
+.C_Cuerpo p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 20px;
+    color: #171717;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img_11{
+    height: 500px;
+    width: 500px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: -200px;
+}
+
+.img_11 img{
+    margin-top: 10px;
+}
+
+.img_12{
+    height: 580px;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 700px;
+    margin-top: -270px;
+}
+
+.img_12 img{
+    margin-top: 10px;
+    height: 480px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+.EstructuraMon{
+    height: 134vh;
+        background: url(img/Montaje_Estructuras_Metalicas/Estrucuta1.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        block-size: cover;
+        text-align: center;
+}
+
+.EstructuraMon h2{
+    color: #171717;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 0 0 #d0d3d4;
+}
+
+.EstructuraMon h2::after,h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #171717;
+    top: 0.6em;
+    }
+
+    .EstructuraMon h2::before{
+        left: -140px;
+    }
+    
+    .EstructuraMon h2::after{
+        right: -140px;
+    }
+
+.EM_Cuerpo{
+        height: 170px;
+        width: 600px;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 40px;
+        background-color: #ffffff;
+}
+
+.EM_Cuerpo p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 18px;
+    color: #171717;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img_EM{
+    height: 450px;
+    width: 450px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+
+.img_EM img{
+    height: 400px;
+    width: 400px;
+    margin-top: -10px;
+}
+
+.img_EM1{
+    height: 450px;
+    width: 450px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin-left: 1030px;
+    margin-top: -700px;
+}
+
+.img_EM1 img{
+    height: 400px;
+    width: 400px;
+    margin-top: -10px;
+}
+
+
+
+
+.Estructura_Sil{
+    height: 140vh;
+        background: url(img/Silos_Tolvas/Silo1.jpeg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        block-size: cover;
+        text-align: center;
+}
+
+.Estructura_Sil h2{
+    color: #171717;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 0 0 #d0d3d4;
+}
+
+.Estructura_Sil h2::after,h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #171717;
+    top: 0.6em;
+    }
+
+    .Estructura_Sil h2::before{
+        left: -140px;
+    }
+    
+    .Estructura_Sil h2::after{
+        right: -140px;
+    }
+
+
+
+
+
+
+
+
+.EstructuraFabrMe{   
+        height: 120vh;
+            background: url(img/Puentes_Peatonales/Puente1.jpeg) no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            block-size: cover;
+            text-align: center;
+}
+
+.EstructuraFabrMe h2{
+    color: #171717;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 0 0 #d0d3d4;
+}
+
+.EstructuraFabrMe h2::after,h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #171717;
+    top: 0.6em;
+    }
+
+    .EstructuraFabrMe h2::before{
+        left: -140px;
+    }
+    
+    .EstructuraFabrMe h2::after{
+        right: -140px;
+    }
+
+    .PP_Cuerpo{
+        height: 450px;
+        width: 350px;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 120px;
+        background-color: #ffffff;
+    }
+    
+    .PP_Cuerpo p{
+        margin-top: 10px;
+        margin-left: -5%;
+        text-align: center;
+        font-size: 18px;
+        color: #171717;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .img_PP{
+        height: 450px;
+        width: 400px;
+        background-color:#ffffff;
+        border-radius: 10px;
+        margin-left: 550px;
+        margin-top: -450px;
+    }
+    
+    .img_PP img{
+        height: 400px;
+        width: 350px;
+        margin-top: -10px;
+    }
+    
+    .img_PP1{
+        height: 450px;
+        width: 400px;
+        background-color:#ffffff;
+        border-radius: 10px;
+        margin-left: 1050px;
+        margin-top: -450px;
+    }
+    
+    .img_PP1 img{
+        height: 400px;
+        width: 350px;
+        margin-top: -10px;
+    }
+
+
+
+
+
+
+
+
+.SB_Cuerpo{
+    height: 450px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 120px;
+    background-color: #ffffff;
+}
+
+.SB_Cuerpo p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #171717;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img_SB{
+    height: 450px;
+    width: 400px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: -450px;
+}
+
+.img_SB img{
+    height: 400px;
+    width: 350px;
+    margin-top: -10px;
+}
+
+.img_SB1{
+    height: 450px;
+    width: 400px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin-left: 1050px;
+    margin-top: -450px;
+}
+
+.img_SB1 img{
+    height: 400px;
+    width: 350px;
+    margin-top: -10px;
+}
+
+@media (max-width: 768px){
+    .title{
+       margin-bottom: 0;
+       font-size: 40px;
+    }
+
+    .sau{
+        height: 200vh;
+    }
+
+    .navbar{
+        width: none;
+    }
+
+} 
+
+
+
+@keyframes slide{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
