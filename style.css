@@ -128,7 +128,6 @@ text-align: center;
     margin-top: -10%;
     margin-left: -8%;
     width: 25%;
-
 }
 }
 
@@ -680,7 +679,7 @@ font-size: 5px;
     @media (max-width: 480px) {
         .EstructuraEntr h2 {
             font-size: 18px;
-            margin-left: -15%;
+            margin-left: 5%;
         }
     
         .EstructuraEntr h2::after {
@@ -700,15 +699,15 @@ font-size: 5px;
         }
 
         .C_Cuerpo{
-            margin-left: 4%;
+            margin-left: 12%;
         }
 
         .img_11{
-            margin-left: 4%;
+            margin-left: 12%;
         }
 
         .img_12{
-            margin-left: 4%;
+            margin-left: 12%;
         }
     }
     
@@ -879,10 +878,12 @@ font-size: 5px;
 
     .EM_Cuerpo{
         height: 20%;
+        margin-left: 20%;
     }
+    
     .EstructuraMon h2 {
         font-size: 20px;
-        margin-left: -15%;
+        margin-left: -5%;
     }
 
     .EstructuraMon h2::after {
@@ -901,16 +902,12 @@ font-size: 5px;
         width: 80%;
     }
 
-    .EM_Cuerpo{
-        margin-left: 4%;
-    }
-
     .img_EM{
-        margin-left: 4%;
+        margin-left: 8%;
     }
 
     .img_EM1{
-        margin-left: 4%;
+        margin-left: 8%;
     }
 
     .EstructuraMon .boton{
@@ -1037,16 +1034,16 @@ font-size: 5px;
     @media (max-width: 480px) {
         .Estructura_Sil .PP_Cuerpo{
             width: 75%;
-            height: 10%;
-            margin-left: 1%;
+            height: 12%;
+            margin-left: 10%;
         }
 
         .Estructura_Sil .PP_Cuerpo p{
             margin-top: -2%;
         }
         .Estructura_Sil h2 {
-            font-size: 20px;
-            margin-left: -25%;
+            font-size: 25px;
+            margin-left: 1%;
             margin-top: 10%;
         }
     
@@ -1061,7 +1058,7 @@ font-size: 5px;
         }
     
         .Estructura_Sil .img_PP{
-            margin-left: 5%;
+            margin-left: 12%;
             width: 70%;
         }
 
@@ -1070,7 +1067,7 @@ font-size: 5px;
         }
     
         .Estructura_Sil .img_PP1{
-            margin-left: 5%;
+            margin-left: 12%;
             width: 70%;
         }
 
@@ -1081,7 +1078,7 @@ font-size: 5px;
     
         .Estructura_Sil .boton{
             margin-top: 5%;
-            margin-left: -18%;
+            margin-left: -8%;
         }
     }
 
@@ -1435,8 +1432,8 @@ font-size: 5px;
 @media (max-width: 480px) {
     .Estructura .SB_Cuerpo{
         width: 75%;
-        height: 15%;
-        margin-left: 4%;
+        height: 18%;
+        margin-left: 10%;
     }
 
     .Estructura .SB_Cuerpo p{
@@ -1444,7 +1441,7 @@ font-size: 5px;
     }
     .Estructura h2 {
         font-size: 20px;
-        margin-left: -20%;
+        margin-left: -10%;
         margin-top: 10%;
     }
 
@@ -1459,7 +1456,7 @@ font-size: 5px;
     }
 
     .img_SB{
-        margin-left: 6%;
+        margin-left: 12%;
         width: 70%;
     }
 
@@ -1468,7 +1465,7 @@ font-size: 5px;
     }
 
     .img_SB1{
-        margin-left: 6%;
+        margin-left: 12%;
         width: 70%;
     }
 
@@ -1479,7 +1476,7 @@ font-size: 5px;
 
     .Estructura .boton{
         margin-top: 5%;
-        margin-left: -18%;
+        margin-left: -8%;
     }
 }
 
