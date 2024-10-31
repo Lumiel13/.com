@@ -112,16 +112,32 @@ form input, form textarea {
         height: 100%;
         width: 48%;
     }
+}
+    @media (max-width: 480px) {
 
     .Slider-text{
 text-align: center;
 }
 
 .Slider-text1{
-    margin-right: 40%; 
+    margin-right: 30%; 
     text-align: justify;
    }
+
+   .logo{
+    margin-top: -10%;
+    margin-left: -8%;
+    width: 25%;
+
 }
+
+.logoSF img{
+    margin-top: 20%;
+    height: 40%;
+    width: 20%;
+}
+}
+
 
 
 
@@ -611,12 +627,17 @@ font-size: 5px;
     /* Media queries para dispositivos móviles */
     @media (max-width: 768px) {
         .EstructuraEntr h2 {
-            font-size: 30px;
+            font-size: 20px;
         }
     
-        .EstructuraEntr h2::before,
         .EstructuraEntr h2::after {
-            width: 80px;
+            width: 40px;
+            left: 110%;
+        }
+
+        .EstructuraEntr h2::before{
+            width: 40px;
+            left: -20%;
         }
     
         .C_Cuerpo {
@@ -664,18 +685,36 @@ font-size: 5px;
     
     @media (max-width: 480px) {
         .EstructuraEntr h2 {
-            font-size: 24px;
+            font-size: 18px;
+            margin-left: -15%;
         }
     
-        .EstructuraEntr h2::before,
         .EstructuraEntr h2::after {
-            width: 50px;
+            width: 40px;
+            left: 102%;
+        }
+
+        .EstructuraEntr h2::before{
+            width: 40px;
+            left: -15%;
         }
     
         .C_Cuerpo,
         .img_11,
         .img_12 {
-            width: 100%;
+            width: 80%;
+        }
+
+        .C_Cuerpo{
+            margin-left: 4%;
+        }
+
+        .img_11{
+            margin-left: 4%;
+        }
+
+        .img_12{
+            margin-left: 4%;
         }
     }
     
@@ -843,19 +882,46 @@ font-size: 5px;
 }
 
 @media (max-width: 480px) {
+
+    .EM_Cuerpo{
+        height: 20%;
+    }
     .EstructuraMon h2 {
-        font-size: 24px;
+        font-size: 20px;
+        margin-left: -15%;
     }
 
-    .EstructuraMon h2::before,
     .EstructuraMon h2::after {
-        width: 50px;
+        width: 40px;
+        left: 102%;
+    }
+
+    .EstructuraMon h2::before{
+        width: 40px;
+        left: -15%;
     }
 
     .EM_Cuerpo,
     .img_EM,
     .img_EM1 {
-        width: 100%;
+        width: 80%;
+    }
+
+    .EM_Cuerpo{
+        margin-left: 4%;
+    }
+
+    .img_EM{
+        margin-left: 4%;
+    }
+
+    .img_EM1{
+        margin-left: 4%;
+    }
+
+    .EstructuraMon .boton{
+        margin-top: 5%;
+        margin-left: -15%;
     }
 }
 
@@ -975,20 +1041,53 @@ font-size: 5px;
     }
     
     @media (max-width: 480px) {
+        .Estructura_Sil .PP_Cuerpo{
+            width: 75%;
+            height: 10%;
+            margin-left: 1%;
+        }
+
+        .Estructura_Sil .PP_Cuerpo p{
+            margin-top: -2%;
+        }
         .Estructura_Sil h2 {
-            font-size: 24px;
+            font-size: 20px;
+            margin-left: -25%;
+            margin-top: 10%;
         }
     
-        .Estructura_Sil h2::before,
         .Estructura_Sil h2::after {
-            width: 50px;
+            width: 40px;
+            left: 102%;
         }
     
+        .Estructura_Sil h2::before{
+            width: 40px;
+            left: -15%;
+        }
     
-        .PP_Cuerpo,
-        .img_PP,
-        .img_PP1 {
-            width: 100%;
+        .Estructura_Sil .img_PP{
+            margin-left: 5%;
+            width: 70%;
+        }
+
+        .img_PP img{
+            margin-top: -2%;
+        }
+    
+        .Estructura_Sil .img_PP1{
+            margin-left: 5%;
+            width: 70%;
+        }
+
+        .img_PP1 img{
+            margin-top: -6%;
+            margin-left: 1%;
+        }
+    
+        .Estructura_Sil .boton{
+            margin-top: 5%;
+            margin-left: -18%;
         }
     }
 
@@ -1162,20 +1261,56 @@ font-size: 5px;
     }
     
     @media (max-width: 480px) {
+        .EM_Cuerpo{
+            height: 20%;
+        }
         .EstructuraFabrMe h2 {
-            font-size: 24px;
+            font-size: 20px;
+            margin-left: 1%;
         }
     
-        .EstructuraFabrMe h2::before,
         .EstructuraFabrMe h2::after {
-            width: 50px;
+            width: 40px;
+            left: 102%;
         }
     
+        .EstructuraFabrMe h2::before{
+            width: 40px;
+            left: -15%;
+        }
     
-        .PP_Cuerpo,
-        .img_PP,
-        .img_PP1 {
-            width: 100%;
+        .EM_Cuerpo{
+            width: 80%;
+        }
+    
+        .EM_Cuerpo{
+            margin-left: 4%;
+        }
+    
+        .img_PP{
+            margin-left: 14%;
+            width: 70%;
+
+        }
+
+        .img_PP img{
+            margin-top: -2%;
+        }
+    
+        .img_PP1{
+            margin-left: 14%;
+            width: 70%;
+
+        }
+
+        .img_PP1 img{
+            margin-top: -6%;
+            margin-left: 1%;
+        }
+    
+        .EstructuraFabrMe .boto{
+            margin-top: 5%;
+            margin-left: -0%;
         }
     }
 
@@ -1304,20 +1439,53 @@ font-size: 5px;
 }
 
 @media (max-width: 480px) {
+    .Estructura .SB_Cuerpo{
+        width: 75%;
+        height: 15%;
+        margin-left: 4%;
+    }
+
+    .Estructura .SB_Cuerpo p{
+        margin-top: -1%;
+    }
     .Estructura h2 {
-        font-size: 24px;
+        font-size: 20px;
+        margin-left: -20%;
+        margin-top: 10%;
     }
 
-    .Estructura h2::before,
     .Estructura h2::after {
-        width: 50px;
+        width: 60px;
+        left: 102%;
     }
 
+    .Estructura h2::before{
+        width: 45px;
+        left: -20%;
+    }
 
-    .SB_Cuerpo,
-    .img_SB,
-    .img_SB1 {
-        width: 100%;
+    .img_SB{
+        margin-left: 6%;
+        width: 70%;
+    }
+
+    .img_SB img{
+        margin-top: -2%;
+    }
+
+    .img_SB1{
+        margin-left: 6%;
+        width: 70%;
+    }
+
+    .img_SB1 img{
+        margin-top: -6%;
+        margin-left: 1%;
+    }
+
+    .Estructura .boton{
+        margin-top: 5%;
+        margin-left: -18%;
     }
 }
 
